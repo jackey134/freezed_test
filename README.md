@@ -212,7 +212,7 @@ class Order with _$Order {
 
 先在任意位置創建接下來會用到的數據模型檔案
 
-![Alt text](assets\README_image\image.png)
+![Alt text](\assets\README_image\image.png)
 
 接著簡單建立模型
 
