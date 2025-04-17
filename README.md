@@ -212,7 +212,7 @@ class Order with _$Order {
 
 先在任意位置創建接下來會用到的數據模型檔案
 
-![Alt text](\assets\README_image\image.png)
+![Alt text](assets/README_image/image.png)
 
 接著簡單建立模型
 
@@ -266,8 +266,8 @@ class CountData with _$CountData {
 flutter pub run build_runner build --delete-conflicting-outputs
 ```
 完成後會像這樣
-![Alt text](assets\README_image\image-1.png)
-![Alt text](assets\README_image\image-2.png)
+![Alt text](assets/README_image/image-1.png)
+![Alt text](assets/README_image/image-2.png)
 
 第四步: 實際應用
 這樣就完成了喔，接下來可以簡單塞值進去測試一下
@@ -301,7 +301,7 @@ class _CountPageState extends State<CountPage> {
 }
 ```
 
-![Alt text](assets\README_image\image-3.png)
+![Alt text](assets/README_image/image-3.png)
 
 ## :dart: 簡單範例
 
@@ -314,17 +314,17 @@ class _CountPageState extends State<CountPage> {
 3. model/order_data.g.dart
 4. views/orider_page.dart
 
-![Alt text](assets\README_image\image-4.png)
+![Alt text](assets/README_image/image-4.png)
 
 * 數據組生成可以使用quicktype網站協助幫忙建立
   https://app.quicktype.io/
 
-![Alt text](assets\README_image\image-5.png)
-![Alt text](assets\README_image\image-6.png)
+![Alt text](assets/README_image/image-5.png)
+![Alt text](assets/README_image/image-6.png)
 > 盡量建立變數的時候都是不要使用到可能為空的變數 
 > (Ex. int? age) 
 
-![Alt text](assets\README_image\image-7.png)
+![Alt text](assets/README_image/image-7.png)
 >第一個為自動幫你建立freezed數據模型
 >**很重要**
 >第二為自動辨識json，假如你的Json變數名稱為 => **Order_id** 
